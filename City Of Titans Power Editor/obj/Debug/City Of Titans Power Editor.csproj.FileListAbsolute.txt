@@ -1,0 +1,24 @@
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\City of Titans Powers Database.mdf
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\City of Titans Powers Database_log.ldf
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\City Of Titans Power Editor.exe.config
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\City Of Titans Power Editor.exe
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\City Of Titans Power Editor.pdb
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\RibbonControlsLibrary.pdb
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\bin\Debug\RibbonControlsLibrary.xml
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\MainWindow.g.cs
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\TextReflector.g.cs
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\App.g.cs
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor_Content.g.cs
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor_MarkupCompile.cache
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor_MarkupCompile.lref
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\MainWindow.baml
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\TextReflector.baml
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor.g.resources
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City_Of_Titans_Power_Editor.Properties.Resources.resources
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor.csproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor.exe
+C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor.pdb
