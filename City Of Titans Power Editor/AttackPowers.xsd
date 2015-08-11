@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AttackPowers" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AttackPowers" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AttackPowers" msprop:Generator_UserDSName="AttackPowers">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Power_x0020_Levels" msprop:Generator_TableClassName="Power_LevelsDataTable" msprop:Generator_TableVarName="tablePower_Levels" msprop:Generator_TablePropName="Power_Levels" msprop:Generator_RowDeletingName="Power_LevelsRowDeleting" msprop:Generator_RowChangingName="Power_LevelsRowChanging" msprop:Generator_RowEvHandlerName="Power_LevelsRowChangeEventHandler" msprop:Generator_RowDeletedName="Power_LevelsRowDeleted" msprop:Generator_UserTableName="Power Levels" msprop:Generator_RowChangedName="Power_LevelsRowChanged" msprop:Generator_RowEvArgName="Power_LevelsRowChangeEvent" msprop:Generator_RowClassName="Power_LevelsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Power_x0020_Level" msprop:Generator_ColumnVarNameInTable="columnPower_Level" msprop:Generator_ColumnPropNameInRow="Power_Level" msprop:Generator_ColumnPropNameInTable="Power_LevelColumn" msprop:Generator_UserColumnName="Power Level" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Ranges" msprop:Generator_TableClassName="RangesDataTable" msprop:Generator_TableVarName="tableRanges" msprop:Generator_TablePropName="Ranges" msprop:Generator_RowDeletingName="RangesRowDeleting" msprop:Generator_RowChangingName="RangesRowChanging" msprop:Generator_RowEvHandlerName="RangesRowChangeEventHandler" msprop:Generator_RowDeletedName="RangesRowDeleted" msprop:Generator_UserTableName="Ranges" msprop:Generator_RowChangedName="RangesRowChanged" msprop:Generator_RowEvArgName="RangesRowChangeEvent" msprop:Generator_RowClassName="RangesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Range" msprop:Generator_ColumnVarNameInTable="columnRange" msprop:Generator_ColumnPropNameInRow="Range" msprop:Generator_ColumnPropNameInTable="RangeColumn" msprop:Generator_UserColumnName="Range" type="xs:string" />
+              <xs:element name="Maximum_x0020_Range" msprop:Generator_ColumnVarNameInTable="columnMaximum_Range" msprop:Generator_ColumnPropNameInRow="Maximum_Range" msprop:Generator_ColumnPropNameInTable="Maximum_RangeColumn" msprop:Generator_UserColumnName="Maximum Range" type="xs:string" minOccurs="0" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Target_x0020_Area" msprop:Generator_TableClassName="Target_AreaDataTable" msprop:Generator_TableVarName="tableTarget_Area" msprop:Generator_TablePropName="Target_Area" msprop:Generator_RowDeletingName="Target_AreaRowDeleting" msprop:Generator_RowChangingName="Target_AreaRowChanging" msprop:Generator_RowEvHandlerName="Target_AreaRowChangeEventHandler" msprop:Generator_RowDeletedName="Target_AreaRowDeleted" msprop:Generator_UserTableName="Target Area" msprop:Generator_RowChangedName="Target_AreaRowChanged" msprop:Generator_RowEvArgName="Target_AreaRowChangeEvent" msprop:Generator_RowClassName="Target_AreaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Target_x0020_Area" msprop:Generator_ColumnVarNameInTable="columnTarget_Area" msprop:Generator_ColumnPropNameInRow="Target_Area" msprop:Generator_ColumnPropNameInTable="Target_AreaColumn" msprop:Generator_UserColumnName="Target Area" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Activation_x0020_Style" msprop:Generator_TableClassName="Activation_StyleDataTable" msprop:Generator_TableVarName="tableActivation_Style" msprop:Generator_TablePropName="Activation_Style" msprop:Generator_RowDeletingName="Activation_StyleRowDeleting" msprop:Generator_RowChangingName="Activation_StyleRowChanging" msprop:Generator_RowEvHandlerName="Activation_StyleRowChangeEventHandler" msprop:Generator_RowDeletedName="Activation_StyleRowDeleted" msprop:Generator_UserTableName="Activation Style" msprop:Generator_RowChangedName="Activation_StyleRowChanged" msprop:Generator_RowEvArgName="Activation_StyleRowChangeEvent" msprop:Generator_RowClassName="Activation_StyleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Style" msprop:Generator_ColumnVarNameInTable="columnStyle" msprop:Generator_ColumnPropNameInRow="Style" msprop:Generator_ColumnPropNameInTable="StyleColumn" msprop:Generator_UserColumnName="Style" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Character_x0020_Level_x0020_Multiplier" msprop:Generator_TableClassName="Character_Level_MultiplierDataTable" msprop:Generator_TableVarName="tableCharacter_Level_Multiplier" msprop:Generator_TablePropName="Character_Level_Multiplier" msprop:Generator_RowDeletingName="Character_Level_MultiplierRowDeleting" msprop:Generator_RowChangingName="Character_Level_MultiplierRowChanging" msprop:Generator_RowEvHandlerName="Character_Level_MultiplierRowChangeEventHandler" msprop:Generator_RowDeletedName="Character_Level_MultiplierRowDeleted" msprop:Generator_UserTableName="Character Level Multiplier" msprop:Generator_RowChangedName="Character_Level_MultiplierRowChanged" msprop:Generator_RowEvArgName="Character_Level_MultiplierRowChangeEvent" msprop:Generator_RowClassName="Character_Level_MultiplierRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Level" msprop:Generator_ColumnVarNameInTable="columnLevel" msprop:Generator_ColumnPropNameInRow="Level" msprop:Generator_ColumnPropNameInTable="LevelColumn" msprop:Generator_UserColumnName="Level" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Character_x0020_Will_x0020_Multiplier" msprop:Generator_TableClassName="Character_Will_MultiplierDataTable" msprop:Generator_TableVarName="tableCharacter_Will_Multiplier" msprop:Generator_TablePropName="Character_Will_Multiplier" msprop:Generator_RowDeletingName="Character_Will_MultiplierRowDeleting" msprop:Generator_RowChangingName="Character_Will_MultiplierRowChanging" msprop:Generator_RowEvHandlerName="Character_Will_MultiplierRowChangeEventHandler" msprop:Generator_RowDeletedName="Character_Will_MultiplierRowDeleted" msprop:Generator_UserTableName="Character Will Multiplier" msprop:Generator_RowChangedName="Character_Will_MultiplierRowChanged" msprop:Generator_RowEvArgName="Character_Will_MultiplierRowChangeEvent" msprop:Generator_RowClassName="Character_Will_MultiplierRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Will" msprop:Generator_ColumnVarNameInTable="columnWill" msprop:Generator_ColumnPropNameInRow="Will" msprop:Generator_ColumnPropNameInTable="WillColumn" msprop:Generator_UserColumnName="Will" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Allowed_x0020_Targets" msprop:Generator_TableClassName="Allowed_TargetsDataTable" msprop:Generator_TableVarName="tableAllowed_Targets" msprop:Generator_TablePropName="Allowed_Targets" msprop:Generator_RowDeletingName="Allowed_TargetsRowDeleting" msprop:Generator_RowChangingName="Allowed_TargetsRowChanging" msprop:Generator_RowEvHandlerName="Allowed_TargetsRowChangeEventHandler" msprop:Generator_RowDeletedName="Allowed_TargetsRowDeleted" msprop:Generator_UserTableName="Allowed Targets" msprop:Generator_RowChangedName="Allowed_TargetsRowChanged" msprop:Generator_RowEvArgName="Allowed_TargetsRowChangeEvent" msprop:Generator_RowClassName="Allowed_TargetsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Target" msprop:Generator_ColumnVarNameInTable="columnTarget" msprop:Generator_ColumnPropNameInRow="Target" msprop:Generator_ColumnPropNameInTable="TargetColumn" msprop:Generator_UserColumnName="Target" type="xs:string" minOccurs="0" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Durations" msprop:Generator_TableClassName="DurationsDataTable" msprop:Generator_TableVarName="tableDurations" msprop:Generator_TablePropName="Durations" msprop:Generator_RowDeletingName="DurationsRowDeleting" msprop:Generator_RowChangingName="DurationsRowChanging" msprop:Generator_RowEvHandlerName="DurationsRowChangeEventHandler" msprop:Generator_RowDeletedName="DurationsRowDeleted" msprop:Generator_UserTableName="Durations" msprop:Generator_RowChangedName="DurationsRowChanged" msprop:Generator_RowEvArgName="DurationsRowChangeEvent" msprop:Generator_RowClassName="DurationsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Duration" msprop:Generator_ColumnVarNameInTable="columnDuration" msprop:Generator_ColumnPropNameInRow="Duration" msprop:Generator_ColumnPropNameInTable="DurationColumn" msprop:Generator_UserColumnName="Duration" type="xs:string" minOccurs="0" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Ping_x0020_Types" msprop:Generator_TableClassName="Ping_TypesDataTable" msprop:Generator_TableVarName="tablePing_Types" msprop:Generator_TablePropName="Ping_Types" msprop:Generator_RowDeletingName="Ping_TypesRowDeleting" msprop:Generator_RowChangingName="Ping_TypesRowChanging" msprop:Generator_RowEvHandlerName="Ping_TypesRowChangeEventHandler" msprop:Generator_RowDeletedName="Ping_TypesRowDeleted" msprop:Generator_UserTableName="Ping Types" msprop:Generator_RowChangedName="Ping_TypesRowChanged" msprop:Generator_RowEvArgName="Ping_TypesRowChangeEvent" msprop:Generator_RowClassName="Ping_TypesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ping_x0020_Type" msprop:Generator_ColumnVarNameInTable="columnPing_Type" msprop:Generator_ColumnPropNameInRow="Ping_Type" msprop:Generator_ColumnPropNameInTable="Ping_TypeColumn" msprop:Generator_UserColumnName="Ping Type" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Damage_x0020_Types" msprop:Generator_TableClassName="Damage_TypesDataTable" msprop:Generator_TableVarName="tableDamage_Types" msprop:Generator_TablePropName="Damage_Types" msprop:Generator_RowDeletingName="Damage_TypesRowDeleting" msprop:Generator_RowChangingName="Damage_TypesRowChanging" msprop:Generator_RowEvHandlerName="Damage_TypesRowChangeEventHandler" msprop:Generator_RowDeletedName="Damage_TypesRowDeleted" msprop:Generator_UserTableName="Damage Types" msprop:Generator_RowChangedName="Damage_TypesRowChanged" msprop:Generator_RowEvArgName="Damage_TypesRowChangeEvent" msprop:Generator_RowClassName="Damage_TypesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_UserColumnName="Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Subtypes" msprop:Generator_TableClassName="SubtypesDataTable" msprop:Generator_TableVarName="tableSubtypes" msprop:Generator_TablePropName="Subtypes" msprop:Generator_RowDeletingName="SubtypesRowDeleting" msprop:Generator_RowChangingName="SubtypesRowChanging" msprop:Generator_RowEvHandlerName="SubtypesRowChangeEventHandler" msprop:Generator_RowDeletedName="SubtypesRowDeleted" msprop:Generator_UserTableName="Subtypes" msprop:Generator_RowChangedName="SubtypesRowChanged" msprop:Generator_RowEvArgName="SubtypesRowChangeEvent" msprop:Generator_RowClassName="SubtypesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Subtype" msprop:Generator_ColumnVarNameInTable="columnSubtype" msprop:Generator_ColumnPropNameInRow="Subtype" msprop:Generator_ColumnPropNameInTable="SubtypeColumn" msprop:Generator_UserColumnName="Subtype" type="xs:string" minOccurs="0" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Physical_x0020_Subtype" msprop:Generator_TableClassName="Physical_SubtypeDataTable" msprop:Generator_TableVarName="tablePhysical_Subtype" msprop:Generator_TablePropName="Physical_Subtype" msprop:Generator_RowDeletingName="Physical_SubtypeRowDeleting" msprop:Generator_RowChangingName="Physical_SubtypeRowChanging" msprop:Generator_RowEvHandlerName="Physical_SubtypeRowChangeEventHandler" msprop:Generator_RowDeletedName="Physical_SubtypeRowDeleted" msprop:Generator_UserTableName="Physical Subtype" msprop:Generator_RowChangedName="Physical_SubtypeRowChanged" msprop:Generator_RowEvArgName="Physical_SubtypeRowChangeEvent" msprop:Generator_RowClassName="Physical_SubtypeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Subtype" msprop:Generator_ColumnVarNameInTable="columnSubtype" msprop:Generator_ColumnPropNameInRow="Subtype" msprop:Generator_ColumnPropNameInTable="SubtypeColumn" msprop:Generator_UserColumnName="Subtype" type="xs:string" minOccurs="0" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Exotic_x0020_Subtype" msprop:Generator_TableClassName="Exotic_SubtypeDataTable" msprop:Generator_TableVarName="tableExotic_Subtype" msprop:Generator_TablePropName="Exotic_Subtype" msprop:Generator_RowDeletingName="Exotic_SubtypeRowDeleting" msprop:Generator_RowChangingName="Exotic_SubtypeRowChanging" msprop:Generator_RowEvHandlerName="Exotic_SubtypeRowChangeEventHandler" msprop:Generator_RowDeletedName="Exotic_SubtypeRowDeleted" msprop:Generator_UserTableName="Exotic Subtype" msprop:Generator_RowChangedName="Exotic_SubtypeRowChanged" msprop:Generator_RowEvArgName="Exotic_SubtypeRowChangeEvent" msprop:Generator_RowClassName="Exotic_SubtypeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Subtype" msprop:Generator_ColumnVarNameInTable="columnSubtype" msprop:Generator_ColumnPropNameInRow="Subtype" msprop:Generator_ColumnPropNameInTable="SubtypeColumn" msprop:Generator_UserColumnName="Subtype" type="xs:string" minOccurs="0" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Energy_x0020_Subtype" msprop:Generator_TableClassName="Energy_SubtypeDataTable" msprop:Generator_TableVarName="tableEnergy_Subtype" msprop:Generator_TablePropName="Energy_Subtype" msprop:Generator_RowDeletingName="Energy_SubtypeRowDeleting" msprop:Generator_RowChangingName="Energy_SubtypeRowChanging" msprop:Generator_RowEvHandlerName="Energy_SubtypeRowChangeEventHandler" msprop:Generator_RowDeletedName="Energy_SubtypeRowDeleted" msprop:Generator_UserTableName="Energy Subtype" msprop:Generator_RowChangedName="Energy_SubtypeRowChanged" msprop:Generator_RowEvArgName="Energy_SubtypeRowChangeEvent" msprop:Generator_RowClassName="Energy_SubtypeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Subtype" msprop:Generator_ColumnVarNameInTable="columnSubtype" msprop:Generator_ColumnPropNameInRow="Subtype" msprop:Generator_ColumnPropNameInTable="SubtypeColumn" msprop:Generator_UserColumnName="Subtype" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tiers" msprop:Generator_TableClassName="TiersDataTable" msprop:Generator_TableVarName="tableTiers" msprop:Generator_TablePropName="Tiers" msprop:Generator_RowDeletingName="TiersRowDeleting" msprop:Generator_RowChangingName="TiersRowChanging" msprop:Generator_RowEvHandlerName="TiersRowChangeEventHandler" msprop:Generator_RowDeletedName="TiersRowDeleted" msprop:Generator_UserTableName="Tiers" msprop:Generator_RowChangedName="TiersRowChanged" msprop:Generator_RowEvArgName="TiersRowChangeEvent" msprop:Generator_RowClassName="TiersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TierIndex" msprop:Generator_ColumnVarNameInTable="columnTierIndex" msprop:Generator_ColumnPropNameInRow="TierIndex" msprop:Generator_ColumnPropNameInTable="TierIndexColumn" msprop:Generator_UserColumnName="TierIndex" type="xs:string" minOccurs="0" />
+              <xs:element name="Tier" msprop:Generator_ColumnVarNameInTable="columnTier" msprop:Generator_ColumnPropNameInRow="Tier" msprop:Generator_ColumnPropNameInTable="TierColumn" msprop:Generator_UserColumnName="Tier" type="xs:int" minOccurs="0" />
+              <xs:element name="Power_x0020_Level" msprop:Generator_ColumnVarNameInTable="columnPower_Level" msprop:Generator_ColumnPropNameInRow="Power_Level" msprop:Generator_ColumnPropNameInTable="Power_LevelColumn" msprop:Generator_UserColumnName="Power Level" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" msprop:Generator_UserColumnName="Value" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Angles" msprop:Generator_TableClassName="AnglesDataTable" msprop:Generator_TableVarName="tableAngles" msprop:Generator_TablePropName="Angles" msprop:Generator_RowDeletingName="AnglesRowDeleting" msprop:Generator_RowChangingName="AnglesRowChanging" msprop:Generator_RowEvHandlerName="AnglesRowChangeEventHandler" msprop:Generator_RowDeletedName="AnglesRowDeleted" msprop:Generator_UserTableName="Angles" msprop:Generator_RowChangedName="AnglesRowChanged" msprop:Generator_RowEvArgName="AnglesRowChangeEvent" msprop:Generator_RowClassName="AnglesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Angle" msprop:Generator_ColumnVarNameInTable="columnAngle" msprop:Generator_ColumnPropNameInRow="Angle" msprop:Generator_ColumnPropNameInTable="AngleColumn" msprop:Generator_UserColumnName="Angle" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Radii" msprop:Generator_TableClassName="RadiiDataTable" msprop:Generator_TableVarName="tableRadii" msprop:Generator_TablePropName="Radii" msprop:Generator_RowDeletingName="RadiiRowDeleting" msprop:Generator_RowChangingName="RadiiRowChanging" msprop:Generator_RowEvHandlerName="RadiiRowChangeEventHandler" msprop:Generator_RowDeletedName="RadiiRowDeleted" msprop:Generator_UserTableName="Radii" msprop:Generator_RowChangedName="RadiiRowChanged" msprop:Generator_RowEvArgName="RadiiRowChangeEvent" msprop:Generator_RowClassName="RadiiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Radius" msprop:Generator_ColumnVarNameInTable="columnRadius" msprop:Generator_ColumnPropNameInRow="Radius" msprop:Generator_ColumnPropNameInTable="RadiusColumn" msprop:Generator_UserColumnName="Radius" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Effects" msprop:Generator_TableClassName="EffectsDataTable" msprop:Generator_TableVarName="tableEffects" msprop:Generator_TablePropName="Effects" msprop:Generator_RowDeletingName="EffectsRowDeleting" msprop:Generator_RowChangingName="EffectsRowChanging" msprop:Generator_RowEvHandlerName="EffectsRowChangeEventHandler" msprop:Generator_RowDeletedName="EffectsRowDeleted" msprop:Generator_UserTableName="Effects" msprop:Generator_RowChangedName="EffectsRowChanged" msprop:Generator_RowEvArgName="EffectsRowChangeEvent" msprop:Generator_RowClassName="EffectsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Effect" msprop:Generator_ColumnVarNameInTable="columnEffect" msprop:Generator_ColumnPropNameInRow="Effect" msprop:Generator_ColumnPropNameInTable="EffectColumn" msprop:Generator_UserColumnName="Effect" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Points" msprop:Generator_TableClassName="PointsDataTable" msprop:Generator_TableVarName="tablePoints" msprop:Generator_TablePropName="Points" msprop:Generator_RowDeletingName="PointsRowDeleting" msprop:Generator_RowChangingName="PointsRowChanging" msprop:Generator_RowEvHandlerName="PointsRowChangeEventHandler" msprop:Generator_RowDeletedName="PointsRowDeleted" msprop:Generator_UserTableName="Points" msprop:Generator_RowChangedName="PointsRowChanged" msprop:Generator_RowEvArgName="PointsRowChangeEvent" msprop:Generator_RowClassName="PointsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Points" msprop:Generator_ColumnVarNameInTable="columnPoints" msprop:Generator_ColumnPropNameInRow="Points" msprop:Generator_ColumnPropNameInTable="PointsColumn" msprop:Generator_UserColumnName="Points" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Accuracies" msprop:Generator_TableClassName="AccuraciesDataTable" msprop:Generator_TableVarName="tableAccuracies" msprop:Generator_TablePropName="Accuracies" msprop:Generator_RowDeletingName="AccuraciesRowDeleting" msprop:Generator_RowChangingName="AccuraciesRowChanging" msprop:Generator_RowEvHandlerName="AccuraciesRowChangeEventHandler" msprop:Generator_RowDeletedName="AccuraciesRowDeleted" msprop:Generator_UserTableName="Accuracies" msprop:Generator_RowChangedName="AccuraciesRowChanged" msprop:Generator_RowEvArgName="AccuraciesRowChangeEvent" msprop:Generator_RowClassName="AccuraciesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Accuracy" msprop:Generator_ColumnVarNameInTable="columnAccuracy" msprop:Generator_ColumnPropNameInRow="Accuracy" msprop:Generator_ColumnPropNameInTable="AccuracyColumn" msprop:Generator_UserColumnName="Accuracy" type="xs:string" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Chances" msprop:Generator_TableClassName="ChancesDataTable" msprop:Generator_TableVarName="tableChances" msprop:Generator_TablePropName="Chances" msprop:Generator_RowDeletingName="ChancesRowDeleting" msprop:Generator_RowChangingName="ChancesRowChanging" msprop:Generator_RowEvHandlerName="ChancesRowChangeEventHandler" msprop:Generator_RowDeletedName="ChancesRowDeleted" msprop:Generator_UserTableName="Chances" msprop:Generator_RowChangedName="ChancesRowChanged" msprop:Generator_RowEvArgName="ChancesRowChangeEvent" msprop:Generator_RowClassName="ChancesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Chance" msprop:Generator_ColumnVarNameInTable="columnChance" msprop:Generator_ColumnPropNameInRow="Chance" msprop:Generator_ColumnPropNameInTable="ChanceColumn" msprop:Generator_UserColumnName="Chance" type="xs:double" />
+              <xs:element name="Multiplier" msprop:Generator_ColumnVarNameInTable="columnMultiplier" msprop:Generator_ColumnPropNameInRow="Multiplier" msprop:Generator_ColumnPropNameInTable="MultiplierColumn" msprop:Generator_UserColumnName="Multiplier" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Attack_x0020_Types" msprop:Generator_TableClassName="Attack_TypesDataTable" msprop:Generator_TableVarName="tableAttack_Types" msprop:Generator_TablePropName="Attack_Types" msprop:Generator_RowDeletingName="Attack_TypesRowDeleting" msprop:Generator_RowChangingName="Attack_TypesRowChanging" msprop:Generator_RowEvHandlerName="Attack_TypesRowChangeEventHandler" msprop:Generator_RowDeletedName="Attack_TypesRowDeleted" msprop:Generator_UserTableName="Attack Types" msprop:Generator_RowChangedName="Attack_TypesRowChanged" msprop:Generator_RowEvArgName="Attack_TypesRowChangeEvent" msprop:Generator_RowClassName="Attack_TypesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_UserColumnName="Type" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Attack_x0020_Subtypes" msprop:Generator_TableClassName="Attack_SubtypesDataTable" msprop:Generator_TableVarName="tableAttack_Subtypes" msprop:Generator_TablePropName="Attack_Subtypes" msprop:Generator_RowDeletingName="Attack_SubtypesRowDeleting" msprop:Generator_RowChangingName="Attack_SubtypesRowChanging" msprop:Generator_RowEvHandlerName="Attack_SubtypesRowChangeEventHandler" msprop:Generator_RowDeletedName="Attack_SubtypesRowDeleted" msprop:Generator_UserTableName="Attack Subtypes" msprop:Generator_RowChangedName="Attack_SubtypesRowChanged" msprop:Generator_RowEvArgName="Attack_SubtypesRowChangeEvent" msprop:Generator_RowClassName="Attack_SubtypesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Subtype" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnSubtype" msprop:Generator_ColumnPropNameInRow="Subtype" msprop:Generator_ColumnPropNameInTable="SubtypeColumn" msprop:Generator_UserColumnName="Subtype" type="xs:string" />
+              <xs:element name="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_UserColumnName="Type" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Power_x0020_Levels" />
+      <xs:field xpath="mstns:Power_x0020_Level" />
+    </xs:unique>
+    <xs:unique name="Ranges_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Ranges" />
+      <xs:field xpath="mstns:Range" />
+    </xs:unique>
+    <xs:unique name="Target_x0020_Area_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Target_x0020_Area" />
+      <xs:field xpath="mstns:Target_x0020_Area" />
+    </xs:unique>
+    <xs:unique name="Activation_x0020_Style_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Activation_x0020_Style" />
+      <xs:field xpath="mstns:Style" />
+    </xs:unique>
+    <xs:unique name="Character_x0020_Level_x0020_Multiplier_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Character_x0020_Level_x0020_Multiplier" />
+      <xs:field xpath="mstns:Level" />
+    </xs:unique>
+    <xs:unique name="Character_x0020_Will_x0020_Multiplier_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Character_x0020_Will_x0020_Multiplier" />
+      <xs:field xpath="mstns:Will" />
+    </xs:unique>
+    <xs:unique name="Allowed_x0020_TargetsKey1">
+      <xs:selector xpath=".//mstns:Allowed_x0020_Targets" />
+      <xs:field xpath="mstns:Target" />
+    </xs:unique>
+    <xs:unique name="DurationsKey1">
+      <xs:selector xpath=".//mstns:Durations" />
+      <xs:field xpath="mstns:Duration" />
+    </xs:unique>
+    <xs:unique name="Ping_x0020_Types_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Ping_x0020_Types" />
+      <xs:field xpath="mstns:Ping_x0020_Type" />
+    </xs:unique>
+    <xs:unique name="Damage_x0020_TypesKey1">
+      <xs:selector xpath=".//mstns:Damage_x0020_Types" />
+      <xs:field xpath="mstns:Type" />
+    </xs:unique>
+    <xs:unique name="SubtypesKey1">
+      <xs:selector xpath=".//mstns:Subtypes" />
+      <xs:field xpath="mstns:Subtype" />
+    </xs:unique>
+    <xs:unique name="Exotic_x0020_SubtypeKey1">
+      <xs:selector xpath=".//mstns:Exotic_x0020_Subtype" />
+      <xs:field xpath="mstns:Subtype" />
+    </xs:unique>
+    <xs:unique name="Energy_x0020_Subtype_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Energy_x0020_Subtype" />
+      <xs:field xpath="mstns:Subtype" />
+    </xs:unique>
+    <xs:unique name="TiersKey1">
+      <xs:selector xpath=".//mstns:Tiers" />
+      <xs:field xpath="mstns:TierIndex" />
+    </xs:unique>
+    <xs:unique name="Angles_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Angles" />
+      <xs:field xpath="mstns:Angle" />
+    </xs:unique>
+    <xs:unique name="Radii_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Radii" />
+      <xs:field xpath="mstns:Radius" />
+    </xs:unique>
+    <xs:unique name="Effects_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Effects" />
+      <xs:field xpath="mstns:Effect" />
+    </xs:unique>
+    <xs:unique name="Points_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Points" />
+      <xs:field xpath="mstns:Points" />
+    </xs:unique>
+    <xs:unique name="Accuracies_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Accuracies" />
+      <xs:field xpath="mstns:Accuracy" />
+    </xs:unique>
+    <xs:unique name="Chances_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Chances" />
+      <xs:field xpath="mstns:Chance" />
+    </xs:unique>
+    <xs:unique name="Attack_x0020_Types_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Attack_x0020_Types" />
+      <xs:field xpath="mstns:Type" />
+    </xs:unique>
+    <xs:unique name="Attack_x0020_Subtypes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Attack_x0020_Subtypes" />
+      <xs:field xpath="mstns:Subtype" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Attack_x0020_Subtypes_Attack_x0020_Types" msdata:parent="Attack_x0020_Subtypes" msdata:child="Attack_x0020_Types" msdata:parentkey="Type" msdata:childkey="Type" msprop:Generator_UserChildTable="Attack Types" msprop:Generator_ChildPropName="GetAttack_TypesRows" msprop:Generator_UserRelationName="Attack Subtypes_Attack Types" msprop:Generator_RelationVarName="relationAttack_Subtypes_Attack_Types" msprop:Generator_UserParentTable="Attack Subtypes" msprop:Generator_ParentPropName="Attack_SubtypesRow" />
+      <msdata:Relationship name="Power_x0020_Levels_Tiers" msdata:parent="Power_x0020_Levels" msdata:child="Tiers" msdata:parentkey="Power_x0020_Level" msdata:childkey="Power_x0020_Level" msprop:Generator_UserChildTable="Tiers" msprop:Generator_ChildPropName="GetTiersRows" msprop:Generator_UserRelationName="Power Levels_Tiers" msprop:Generator_ParentPropName="Power_LevelsRow" msprop:Generator_RelationVarName="relationPower_Levels_Tiers" msprop:Generator_UserParentTable="Power Levels" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
