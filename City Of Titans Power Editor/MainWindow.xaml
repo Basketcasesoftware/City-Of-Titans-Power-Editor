@@ -1355,7 +1355,9 @@
                         </MenuItem>
                         <MenuItem Header="Editing Controls">
                         </MenuItem>
-                        <MenuItem Header="Editing Controls">
+                        <MenuItem Header="Editing Assets">
+                        </MenuItem>
+                        <MenuItem Header="Editing NPCs">
                         </MenuItem>
                         <Separator/>
                         <MenuItem x:Name="mnuHelpAbout" Header="_About" Click="mnuHelpAbout_Click">
@@ -1535,6 +1537,8 @@
             <TabItem Header="Controls"></TabItem>
 
             <TabItem Header="Assets"></TabItem>
+
+            <TabItem Header="NPC Design"></TabItem>
         </TabControl>
     </DockPanel>
 </Window>

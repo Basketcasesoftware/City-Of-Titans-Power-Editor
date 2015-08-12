@@ -22,3 +22,6 @@ C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\
 C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor.csproj.GenerateResource.Cache
 C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor.exe
 C:\Users\User\documents\visual studio 2015\Projects\City Of Titans Power Editor\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor.pdb
+C:\Users\User\Desktop\Game Stuff\Documents\GitHub\Utilities-PowerDesigner\City Of Titans Power Editor\bin\Debug\City Of Titans Power Editor.exe.config
+C:\Users\User\Desktop\Game Stuff\Documents\GitHub\Utilities-PowerDesigner\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor.exe
+C:\Users\User\Desktop\Game Stuff\Documents\GitHub\Utilities-PowerDesigner\City Of Titans Power Editor\obj\Debug\City Of Titans Power Editor.pdb
