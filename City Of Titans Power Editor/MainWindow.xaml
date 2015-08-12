@@ -1360,6 +1360,8 @@
                         <MenuItem Header="Editing NPCs">
                         </MenuItem>
                         <Separator/>
+                        <MenuItem Header="Gameplay Workroom Docs"/>
+                        <Separator/>
                         <MenuItem x:Name="mnuHelpAbout" Header="_About" Click="mnuHelpAbout_Click">
                         </MenuItem>
                     </MenuItem>
